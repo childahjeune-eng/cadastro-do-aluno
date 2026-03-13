@@ -17,7 +17,7 @@ app.post("/salvar", (req, res) => {
     let nome = req.body.nome;
     let idade = req.body.idade;
 
-    
+    let sq1 = "INSERT INTO alunos (nome,idade) VALUES (?, ?);"
 })
 
 
