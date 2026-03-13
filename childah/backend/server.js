@@ -13,7 +13,12 @@ const conexao = mysq1.createConnection({
     database: 'escola'
 });
 
-app.post("/salvar", (req, res) => {})
+app.post("/salvar", (req, res) => {
+    let nome = req.body.nome;
+    let idade = req.body.idade;
+
+    
+})
 
 
 
