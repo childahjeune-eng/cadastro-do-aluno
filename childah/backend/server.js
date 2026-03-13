@@ -12,3 +12,9 @@ const conexao = mysq1.createConnection({
     password: '',
     database: 'escola'
 });
+
+app.post("/salvar", (req, res) => {})
+
+
+
+
